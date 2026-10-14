@@ -1,0 +1,33 @@
+
+# Python gyorsítótár
+__pycache__/
+*.py[cod]
+
+# Virtuális környezet
+.venv/
+venv/
+
+# Környezeti változók és titkok
+.env
+
+# Szerkesztők és Windows
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Letöltött adatok és cache
+data/
+datasets/
+.cache/
+huggingface/
+*.zip
+
+# Tanított modellek és futási eredmények
+outputs/*
+!outputs/.gitkeep
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
