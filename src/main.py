@@ -4,6 +4,7 @@ from datasets import load_dataset
 def main():
 
     print("Food-101 adathalmaz betöltése...")
+    #Huggingface hivatkozása:
     dataset = load_dataset("ethz/food101")
     # A képek két külön részre vannak bontva:
     # A train a tanításhoz, a validation pedig az ellenőrzéshez kell majd
