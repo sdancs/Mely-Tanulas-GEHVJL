@@ -1,11 +1,13 @@
+# from data_validation import main as validate_data
 from datasets import load_dataset
 
 
 def main():
 
-    print("Food-101 adathalmaz betöltése...")
+    print("Food-101 adathalmaz betöltése")
     #Huggingface hivatkozása:
     dataset = load_dataset("ethz/food101")
+
     # A képek két külön részre vannak bontva:
     # A train a tanításhoz, a validation pedig az ellenőrzéshez kell majd
     train_data = dataset["train"]
@@ -33,3 +35,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # Adattisztítás és adatelőkészítés ellenőrzése
+    # validate_data()

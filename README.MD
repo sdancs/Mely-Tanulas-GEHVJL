@@ -16,3 +16,6 @@ Adatelőkészítés:
 -Egységes méretre alakítás
 -Adatok normalizálása
 -Augmentáció (képek torzítása)
+
+Adatok feldolgozása:
+Mivel egy nyilvános adatbázis, így szükséges volt az elemek ellenőrzése. Erre a githubon megtalálható ellenőrző verzión megtalálható a kódrészlet. A kód azért nem maradt bent a fő kódban, mert futási ideje hosszú.
