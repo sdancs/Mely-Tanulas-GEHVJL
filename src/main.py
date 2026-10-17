@@ -1,4 +1,11 @@
+<<<<<<< Updated upstream
+=======
+# .venv\Scripts\activate.bat
+
+# from data_validation import main as validate_data
+>>>>>>> Stashed changes
 from datasets import load_dataset
+from hog_svm import main as hog_svm_main
 
 
 def main():
@@ -27,9 +34,15 @@ def main():
     print(f"Első kép kategóriája: {category_name}")
     print(f"Első kép mérete: {first_image.size}")
 
-    # Mutassuk is meg az első képet, hogy lássuk, tényleg jó adatot kaptunk:
-    first_image.show()
+    #first_image.show()
+
+    hog_svm_main(train_data)
 
 
 if __name__ == "__main__":
     main()
+<<<<<<< Updated upstream
+=======
+    # Adattisztítás és adatelőkészítés ellenőrzése: # validate_data()
+
+>>>>>>> Stashed changes

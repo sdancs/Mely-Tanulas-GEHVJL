@@ -16,3 +16,7 @@ Adatelőkészítés:
 -Egységes méretre alakítás
 -Adatok normalizálása
 -Augmentáció (képek torzítása)
+
+Modellválasztás
+A feladat megoldására három, eltérő megközelítésen alapuló modellt választunk: egy hagyományos gépi tanulási módszert alkalmazó HOG + SVM osztályozót, egy saját fejlesztésű konvolúciós neurális hálózatot (CNN), valamint egy előtanított ResNet18 modellt.
+A három megoldás összehasonlításával nemcsak azt vizsgálhatjuk meg, hogy melyik modell teljesít jobban az ételképek felismerésében, hanem azt is, hogy milyen előnyt jelent a mélytanulás alkalmazása a hagyományos képfeldolgozással szemben, illetve mennyire hasznosak a más adathalmazon előzetesen megtanult képi jellemzők (főleg a ResNet esetében).

@@ -4,5 +4,6 @@ datasets
 Pillow
 numpy
 scikit-learn
+scikit-image
 matplotlib
 tqdm
