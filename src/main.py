@@ -1,4 +1,9 @@
 from datasets import load_dataset
+<<<<<<< Updated upstream
+=======
+from hog_svm import main as hog_svm_main
+from cnn import main as cnn_main
+>>>>>>> Stashed changes
 
 
 def main():
@@ -27,9 +32,24 @@ def main():
     print(f"Első kép kategóriája: {category_name}")
     print(f"Első kép mérete: {first_image.size}")
 
+<<<<<<< Updated upstream
     # Mutassuk is meg az első képet, hogy lássuk, tényleg jó adatot kaptunk:
     first_image.show()
+=======
+    #first_image.show()
+
+    #HOG-SVM futtatása:
+    #hog_svm_main(train_data)
+    #CNN futtatása
+    cnn_main(dataset)
+>>>>>>> Stashed changes
 
 
 if __name__ == "__main__":
     main()
+<<<<<<< Updated upstream
+=======
+
+
+#.venv\Scripts\activate.bat
+>>>>>>> Stashed changes

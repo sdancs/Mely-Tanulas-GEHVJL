@@ -31,3 +31,4 @@ outputs/*
 
 # Jupyter
 .ipynb_checkpoints/
+eredmenyek/cnn/beallitasok.json
