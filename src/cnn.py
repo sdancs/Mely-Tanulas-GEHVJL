@@ -22,7 +22,7 @@ IMAGE_SIZE = 396
 BATCH_SIZE = 64
 
 # Hányszor haladjon végig a modell a teljes tanító adathalmazon
-EPOCHS = 120
+EPOCHS = 130
 # A tanulási ráta határozza meg a súlyok módosításának mértékét
 LEARNING_RATE = 0.001
 # A véletlenszerű folyamatok ismételhetőbbé tétele
@@ -111,10 +111,10 @@ class SimpleCNN(nn.Module):
 
         self.classifier = nn.Sequential(
             nn.Flatten(),
-            nn.Linear(128 * 4 * 4, 396),
+            nn.Linear(128 * 4 * 4, 256),
             nn.ReLU(),
-            nn.Dropout(0.35),
-            nn.Linear(396, num_classes)
+            nn.Dropout(0.5),
+            nn.Linear(256, num_classes)
         )
 
 
@@ -324,7 +324,7 @@ def main(dataset):
         optimizer,
         mode="max",
         factor=0.5,
-        patience=2,
+        patience=3,
         min_lr=0.000001
     )
 
