@@ -1,8 +1,7 @@
-
 from datasets import load_dataset
 from hog_svm import main as hog_svm_main
 from cnn import main as cnn_main
-
+#.venv\Scripts\activate.bat
 
 def main():
     print("Food-101 adathalmaz betöltése...")
