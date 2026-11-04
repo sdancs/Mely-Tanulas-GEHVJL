@@ -1,0 +1,12 @@
+{
+    "modell": "ResNet101 transfer learning",
+    "kepmeret": 224,
+    "batch_meret": 32,
+    "epochok": 10,
+    "seed": 14,
+    "tanito_kepek": 60600,
+    "belso_validacios_kepek": 15150,
+    "vegso_tesztkepek": 25250,
+    "osztalyok_szama": 101,
+    "eszkoz": "cuda"
+}

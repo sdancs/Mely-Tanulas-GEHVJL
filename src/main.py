@@ -1,6 +1,7 @@
 from datasets import load_dataset
 from hog_svm import main as hog_svm_main
 from cnn import main as cnn_main
+from resnet import main as resnet_main
 #.venv\Scripts\activate.bat
 
 def main():
@@ -26,7 +27,10 @@ def main():
     # hog_svm_main(train_data)
 
     # CNN futtatása
-    cnn_main(dataset)
+    #cnn_main(dataset)
+
+    #Restnet
+    resnet_main(dataset)
 
 
 if __name__ == "__main__":
